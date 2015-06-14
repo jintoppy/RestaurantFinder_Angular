@@ -1,0 +1,16 @@
+{
+  "name": "RestaurantFinder_Angular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jintoppy/RestaurantFinder_Angular",
+  "authors": [
+    "Jinto Jose <jintoppy@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
