@@ -24,8 +24,8 @@ angular.module('myapp')
 			}];
 
 			$scope.onSearch = function(){
-				console.log($scope.city);
-				console.log($scope.locality);
+				console.log($scope.model.city);
+				console.log($scope.model.locality);
 			};
 
 		}]);
