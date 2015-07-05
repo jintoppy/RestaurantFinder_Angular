@@ -2,6 +2,7 @@ angular.module('myapp')
 	.controller('HomePageCtrl', ['$scope',
 		function ($scope) {
 			$scope.test = "Welcome to restaurant finder";
+			$scope.model={};
 			$scope.cities = [
 			{
 				name: 'Bangalore',

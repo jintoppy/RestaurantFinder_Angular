@@ -12,11 +12,12 @@
 	<div class="container" ng-controller="HomePageCtrl">
 		<div class="row" id="header">
 			{{test}}
+			{{model.city}}
 		<div class="row" id="container">
 			<div class="col-md-4">
 				<div class="form-group">
 			    	<label for="city">City</label>
-			    	<ui-select ng-model="city"
+			    	<ui-select ng-model="model.city"
 				             theme="bootstrap"
 				             style="width: 300px;">
 					    <ui-select-match placeholder="Enter city">{{$select.selected.name}}</ui-select-match>
@@ -31,7 +32,7 @@
 			<div class="col-md-4">
 				<div class="form-group">
 			    	<label for="locality">Locality</label>
-			    	<ui-select name="locality" ng-model="locality"
+			    	<ui-select name="locality" ng-model="model.locality"
 				             theme="bootstrap"
 				             style="width: 300px;">
 					    <ui-select-match placeholder="Enter Location">{{$select.selected.name}}</ui-select-match>
